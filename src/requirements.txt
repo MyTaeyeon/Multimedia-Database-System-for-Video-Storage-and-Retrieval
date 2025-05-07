@@ -1,0 +1,7 @@
+flask
+sqlalchemy
+pymysql
+opencv-python
+numpy
+pillow
+requests
