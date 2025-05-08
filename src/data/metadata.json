@@ -1,0 +1,34 @@
+{
+    "videos": [
+        {
+            "id": "video1",
+            "title": "Sample Video 1",
+            "description": "This is the first sample video description.",
+            "path": "/videos/sample_video1.mp4",
+            "segments": [
+                {
+                    "id": "segment1",
+                    "start_time": "00:00:00",
+                    "end_time": "00:01:00",
+                    "features": {
+                        "color_histogram": "path/to/color_histogram_segment1.json",
+                        "motion_vectors": "path/to/motion_vectors_segment1.json"
+                    }
+                },
+                {
+                    "id": "segment2",
+                    "start_time": "00:01:00",
+                    "end_time": "00:02:00",
+                    "features": {
+                        "color_histogram": "path/to/color_histogram_segment2.json",
+                        "motion_vectors": "path/to/motion_vectors_segment2.json"
+                    }
+                }
+            ],
+            "features": {
+                "audio_features": "path/to/audio_features_video1.json",
+                "visual_features": "path/to/visual_features_video1.json"
+            }
+        }
+    ]
+}
